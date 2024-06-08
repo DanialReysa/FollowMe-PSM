@@ -1,2 +1,6 @@
-2024/05/20-02:33:27.923 486c Creating DB C:/Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2024/05/20-02:33:27.931 486c Reusing MANIFEST C:/Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/06/08-12:52:39.697 3e7c Reusing MANIFEST C:/Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/06/08-12:52:39.698 3e7c Recovering log #3
+2024/06/08-12:52:39.700 3e7c Reusing old log C:/Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2024/06/08-13:20:51.180 4ee4 Level-0 table #5: started
+2024/06/08-13:20:51.185 4ee4 Level-0 table #5: 16495 bytes OK
+2024/06/08-13:20:51.188 4ee4 Delete type=0 #3
