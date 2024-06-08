@@ -34,6 +34,10 @@
 			"Name": "ReadyPlayerMe",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/57665e6da03749ceb765905d87f716bd"
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
 		}
 	]
 }
