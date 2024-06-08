@@ -4352,3 +4352,755 @@ LogInit: Object subsystem initialized
 [2024.06.08-04.24.38:497][268]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1623448820
 [2024.06.08-04.24.38:497][268]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FollowMeLibrary/Player/ThirdPersonCharacter.ThirdPersonCharacter
 [2024.06.08-04.24.38:497][268]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/FollowMeLibrary/Characters/Camilla/CamillaAnim.CamillaAnim
+[2024.06.08-04.25.10:793][755]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: ================================================
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: Total job queries 1,912, among them cache hits 1,587 (83.00%)
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: Tracking 325 distinct input hashes that result in 144 distinct outputs (44.31%)
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: RAM used: 8.99 MiB of 819.20 MiB budget. Usage: 1.10%
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.08-04.25.12:515][856]LogShaderCompilers: Display: ================================================
+[2024.06.08-04.25.32:329][ 38]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.25.32:337][ 38]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.25.32:338][ 38]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with StaticEnemyAI_C_0, they are designed to work with AAIControllers!
+[2024.06.08-04.25.32:447][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.25.32:462][ 44]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.25.32:463][ 44]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with MovingEnemyAI_C_0, they are designed to work with AAIControllers!
+[2024.06.08-04.25.57:504][328]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee
+[2024.06.08-04.25.57:505][328]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee
+[2024.06.08-04.25.57:506][328]LogActorFactory: Actor Factory spawned StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee as actor: StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_0
+[2024.06.08-04.25.57:560][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee
+[2024.06.08-04.25.57:560][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee
+[2024.06.08-04.25.57:565][329]LogActorFactory: Actor Factory spawned StaticMesh /Game/FollowMeLibrary/Assets/Vehicle/Bumblebee/Bumblebee.Bumblebee as actor: StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1118678695
+[2024.06.08-04.28.33:426][564]Cmd: TRANSACTION UNDO
+[2024.06.08-04.28.33:426][564]LogEditorTransaction: Undo Rotate Elements
+[2024.06.08-04.28.34:351][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:354][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:362][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:390][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:400][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:402][564]LogEditorModes: FEditorModeTools::ActivateMode : Couldn't find mode 'IKRig.IKRigEditor.IKRigEditMode'.
+[2024.06.08-04.28.34:402][564]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.08-04.28.34:403][564]LogEditorModes: FEditorModeTools::ActivateMode : Couldn't find mode 'IKRig.IKRigEditor.IKRigEditMode'.
+[2024.06.08-04.28.37:907][750]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.08-04.28.37:921][750]LogContentBundle: [Map1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.06.08-04.28.37:921][750]LogWorldPartition: Display: GenerateStreaming for 'Map1' started...
+[2024.06.08-04.28.37:926][750]LogWorldPartition: Display: GenerateStreaming for 'Map1' took 5 ms (total: 30 ms)
+[2024.06.08-04.28.37:927][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.08-04.28.37:927][750]PIE: New page: PIE session: Map1 (8 Jun 2024, 8:28:37 pm)
+[2024.06.08-04.28.37:963][750]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Map1
+[2024.06.08-04.28.37:972][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008545s)
+[2024.06.08-04.28.37:972][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Map1.Map1 to /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1 (0.008603s)
+[2024.06.08-04.28.37:985][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.08-04.28.37:987][750]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.28.37:987][750]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.08-04.28.37:987][750]LogAIModule: Creating AISystem for world Map1
+[2024.06.08-04.28.37:988][750]LogWorldPartition: ULevel::OnLevelLoaded(Map1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.06.08-04.28.37:988][750]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.08-04.28.37:988][750]LogWorldPartition: UWorldPartition::Initialize : World = Map1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.08-04.28.37:988][750]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.06.08-04.28.37:992][750]LogContentBundle: [Map1(Standalone)] Creating new contrainer.
+[2024.06.08-04.28.37:992][750]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.50 sec)
+[2024.06.08-04.28.37:992][750]LogPlayLevel: PIE: World Init took: (0.004804s)
+[2024.06.08-04.28.37:992][750]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.08-04.28.37:992][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.08-04.28.37:992][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.08-04.28.37:992][750]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.08-04.28.37:992][750]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.08-04.28.37:992][750]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.08-04.28.37:995][750]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.08-04.28.38:072][750]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.06.08-04.28.38:073][750]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.08-04.28.38:073][750]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.08-04.28.38:073][750]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.08-04.28.38:073][750]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.06.08-04.28.38:073][750]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.06.08-04.28.38:076][750]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.06.08-04.28.38:076][750]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.06.08-04.28.38:076][750]LogInit: FAudioDevice initialized with ID 9.
+[2024.06.08-04.28.38:076][750]LogAudio: Display: Audio Device (ID: 9) registered with world 'Map1'.
+[2024.06.08-04.28.38:076][750]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.08-04.28.38:078][750]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.08-04.28.38:083][750]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.28.38:087][750]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.28.38:089][750]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.28.38:090][750]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2024.06.08-12.28.38
+[2024.06.08-04.28.38:091][750]LogWorld: Bringing up level for play took: 0.011946
+[2024.06.08-04.28.38:094][750]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.06.08-04.28.38:096][750]LogScript: Warning: Script Msg: The widget 'DetectionMeter_W_C_0' was already added to the screen.
+[2024.06.08-04.28.38:096][750]LogScript: Warning: Script Msg called by: ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_UAID_D843AE06D09D17F101_2025650710
+[2024.06.08-04.28.38:096][750]PIE: Server logged in
+[2024.06.08-04.28.38:097][750]PIE: Play in editor total start time 0.177 seconds.
+[2024.06.08-04.28.40:693][888]LogChaos: Warning: Degenerate triangle 4555: (0.542914 -0.656312 0.284501) (0.538808 -0.368374 0.280790) (0.546916 -0.517218 0.298418)
+[2024.06.08-04.28.40:693][888]LogChaos: Warning: Degenerate triangle 4555: (0.542914 -0.656312 0.284501) (0.538808 -0.368374 0.280790) (0.546916 -0.517218 0.298418)
+[2024.06.08-04.28.40:709][889]LogChaos: Warning: Degenerate triangle 4555: (0.542914 -0.656312 0.284501) (0.538808 -0.368374 0.280790) (0.546916 -0.517218 0.298418)
+[2024.06.08-04.28.40:709][889]LogChaos: Warning: Degenerate triangle 4555: (0.542914 -0.656312 0.284501) (0.538808 -0.368374 0.280790) (0.546916 -0.517218 0.298418)
+[2024.06.08-04.28.43:476][ 55]LogChaos: Warning: Degenerate triangle 8144: (0.597009 1.288228 0.331585) (0.577608 1.230644 0.257459) (0.570876 1.291996 0.252563)
+[2024.06.08-04.28.43:477][ 55]LogChaos: Warning: Degenerate triangle 8144: (0.597009 1.288228 0.331585) (0.577608 1.230644 0.257459) (0.570876 1.291996 0.252563)
+[2024.06.08-04.28.43:493][ 56]LogChaos: Warning: Degenerate triangle 8144: (0.597009 1.288228 0.331585) (0.577608 1.230644 0.257459) (0.570876 1.291996 0.252563)
+[2024.06.08-04.28.43:493][ 56]LogChaos: Warning: Degenerate triangle 8144: (0.597009 1.288228 0.331585) (0.577608 1.230644 0.257459) (0.570876 1.291996 0.252563)
+[2024.06.08-04.28.43:509][ 57]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:509][ 57]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:509][ 57]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:527][ 58]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:527][ 58]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:527][ 58]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:544][ 59]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:544][ 59]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:547][ 59]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:559][ 60]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:559][ 60]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:559][ 60]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:576][ 61]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:576][ 61]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.43:576][ 61]LogChaos: Warning: Degenerate triangle 8150: (0.565010 1.297190 0.226848) (0.571818 1.225457 0.246883) (0.571411 1.236760 0.230432)
+[2024.06.08-04.28.44:443][113]LogChaos: Warning: Degenerate triangle 8650: (0.499403 1.342868 0.314981) (0.439934 1.338897 0.347277) (0.502743 1.339656 0.377585)
+[2024.06.08-04.28.44:443][113]LogChaos: Warning: Degenerate triangle 8650: (0.499403 1.342868 0.314981) (0.439934 1.338897 0.347277) (0.502743 1.339656 0.377585)
+[2024.06.08-04.28.44:510][117]LogChaos: Warning: Degenerate triangle 8076: (0.603306 1.074892 0.321177) (0.600274 1.232532 0.347784) (0.599036 1.146090 0.339400)
+[2024.06.08-04.28.44:510][117]LogChaos: Warning: Degenerate triangle 8076: (0.603306 1.074892 0.321177) (0.600274 1.232532 0.347784) (0.599036 1.146090 0.339400)
+[2024.06.08-04.28.44:543][119]LogChaos: Warning: Degenerate triangle 8005: (-0.594157 0.866696 0.185082) (0.500970 0.867087 0.185038) (-0.166821 0.867144 0.185119)
+[2024.06.08-04.28.44:543][119]LogChaos: Warning: Degenerate triangle 8005: (-0.594157 0.866696 0.185082) (0.500970 0.867087 0.185038) (-0.166821 0.867144 0.185119)
+[2024.06.08-04.28.44:544][119]LogChaos: Warning: Degenerate triangle 8005: (-0.594157 0.866696 0.185082) (0.500970 0.867087 0.185038) (-0.166821 0.867144 0.185119)
+[2024.06.08-04.28.47:015][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.08-04.28.47:015][265]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Map1
+[2024.06.08-04.28.47:016][265]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2024.06.08-04.28.47:017][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.08-04.28.47:017][265]LogContentBundle: [Map1(Standalone)] Deleting container.
+[2024.06.08-04.28.47:023][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.08-04.28.47:030][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.08-04.28.47:044][265]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.08-04.28.47:044][265]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.08-04.28.47:044][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.08-04.28.47:047][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.08-04.28.47:055][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.08-04.28.47:060][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.08-04.28.47:144][266]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.06.08-04.28.56:016][787]Cmd: SELECT NONE
+[2024.06.08-04.29.20:718][172]Cmd: DELETE
+[2024.06.08-04.29.20:759][172]Cmd: ACTOR DELETE
+[2024.06.08-04.29.20:855][172]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.08-04.29.20:870][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.06.08-04.29.20:873][172]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2024.06.08-04.32.02:279][197]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.08-04.32.31:845][835]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2024.06.08-04.32.31:846][835]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2024.06.08-04.32.31:846][835]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2024.06.08-04.32.31:846][835]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2024.06.08-04.32.31:848][835]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:0]] deferred - dummy variable created
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2024.06.08-04.32.31:848][835]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2024.06.08-04.32.31:848][835]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2024.06.08-04.32.31:849][835]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2024.06.08-04.32.31:849][835]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2024.06.08-04.32.31:849][835]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2024.06.08-04.32.31:849][835]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2024.06.08-04.32.31:849][835]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2024.06.08-04.32.31:850][835]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2024.06.08-04.32.31:850][835]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2024.06.08-04.32.31:850][835]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2024.06.08-04.32.31:850][835]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2024.06.08-04.32.31:850][835]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2024.06.08-04.32.31:850][835]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2024.06.08-04.32.31:851][835]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2024.06.08-04.32.31:851][835]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2024.06.08-04.32.31:852][835]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.DetailMode:0]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2024.06.08-04.32.31:852][835]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2024.06.08-04.32.31:853][835]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2024.06.08-04.32.31:854][835]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2024.06.08-04.32.31:854][835]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2024.06.08-04.32.31:854][835]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2024.06.08-04.32.31:854][835]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2024.06.08-04.32.31:854][835]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2024.06.08-04.32.31:947][835]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.06.08-04.32.31:964][836]LogContentStreaming: Texture pool size now 400 MB
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [Scalability]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.SkeletalMeshLODBias:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.ViewDistanceScale:0.6]]
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [Scalability]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.FXAA.Quality:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:0]] deferred - dummy variable created
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@1] File [Scalability]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [ReflectionQuality@1] File [Scalability]
+[2024.06.08-04.32.33:996][935]LogConfig: Set CVar [[r.SSR.Quality:2]]
+[2024.06.08-04.32.33:996][935]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [Scalability]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.DepthOfFieldQuality:1]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.RenderTargetPoolMin:350]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:35.355]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.FastBlurThreshold:2]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.Filter.SizeScale:0.7]]
+[2024.06.08-04.32.33:999][935]LogConfig: Set CVar [[r.Tonemapper.Quality:2]]
+[2024.06.08-04.32.34:000][935]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [Scalability]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.Streaming.MipBias:1]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.MaxAnisotropy:2]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.Streaming.PoolSize:600]]
+[2024.06.08-04.32.34:000][935]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [Scalability]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.DetailMode:1]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SSS.Scale:0.75]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SSGI.Quality:1]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.25]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[fx.Niagara.QualityLevel:1]]
+[2024.06.08-04.32.34:000][935]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [Scalability]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[foliage.DensityScale:0.4]]
+[2024.06.08-04.32.34:000][935]LogConfig: Set CVar [[grass.DensityScale:0.4]]
+[2024.06.08-04.32.34:000][935]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [Scalability]
+[2024.06.08-04.32.34:010][935]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.06.08-04.32.34:265][941]LogContentStreaming: Texture pool size now 600 MB
+[2024.06.08-04.32.35:907][ 36]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.08-04.32.35:918][ 36]LogContentBundle: [Map1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.06.08-04.32.35:918][ 36]LogWorldPartition: Display: GenerateStreaming for 'Map1' started...
+[2024.06.08-04.32.35:923][ 36]LogWorldPartition: Display: GenerateStreaming for 'Map1' took 5 ms (total: 35 ms)
+[2024.06.08-04.32.35:923][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.08-04.32.35:923][ 36]PIE: New page: PIE session: Map1 (8 Jun 2024, 8:32:35 pm)
+[2024.06.08-04.32.35:923][ 36]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Map1
+[2024.06.08-04.32.35:933][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009887s)
+[2024.06.08-04.32.35:933][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Map1.Map1 to /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1 (0.009922s)
+[2024.06.08-04.32.35:948][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.06.08-04.32.35:956][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.32.35:956][ 36]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.08-04.32.35:957][ 36]LogAIModule: Creating AISystem for world Map1
+[2024.06.08-04.32.35:958][ 36]LogWorldPartition: ULevel::OnLevelLoaded(Map1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.06.08-04.32.35:958][ 36]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.08-04.32.35:958][ 36]LogWorldPartition: UWorldPartition::Initialize : World = Map1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.08-04.32.35:958][ 36]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.06.08-04.32.35:961][ 36]LogContentBundle: [Map1(Standalone)] Creating new contrainer.
+[2024.06.08-04.32.35:961][ 36]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.50 sec)
+[2024.06.08-04.32.35:961][ 36]LogPlayLevel: PIE: World Init took: (0.004495s)
+[2024.06.08-04.32.35:961][ 36]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.08-04.32.35:961][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.08-04.32.35:961][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.08-04.32.35:961][ 36]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.08-04.32.35:961][ 36]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.08-04.32.35:961][ 36]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.08-04.32.35:964][ 36]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.08-04.32.36:050][ 36]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.06.08-04.32.36:050][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.08-04.32.36:050][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.08-04.32.36:050][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.08-04.32.36:051][ 36]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.06.08-04.32.36:051][ 36]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.06.08-04.32.36:054][ 36]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.06.08-04.32.36:054][ 36]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.06.08-04.32.36:054][ 36]LogInit: FAudioDevice initialized with ID 10.
+[2024.06.08-04.32.36:054][ 36]LogAudio: Display: Audio Device (ID: 10) registered with world 'Map1'.
+[2024.06.08-04.32.36:054][ 36]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.08-04.32.36:057][ 36]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.08-04.32.36:062][ 36]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.32.36:066][ 36]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.32.36:068][ 36]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Quinn_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.08-04.32.36:070][ 36]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2024.06.08-12.32.36
+[2024.06.08-04.32.36:071][ 36]LogWorld: Bringing up level for play took: 0.013968
+[2024.06.08-04.32.36:074][ 36]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.06.08-04.32.36:076][ 36]LogScript: Warning: Script Msg: The widget 'DetectionMeter_W_C_0' was already added to the screen.
+[2024.06.08-04.32.36:077][ 36]LogScript: Warning: Script Msg called by: ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_UAID_D843AE06D09D17F101_2025650710
+[2024.06.08-04.32.36:077][ 36]PIE: Server logged in
+[2024.06.08-04.32.36:078][ 36]PIE: Play in editor total start time 0.16 seconds.
+[2024.06.08-04.32.42:244][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.08-04.32.42:244][400]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Map1
+[2024.06.08-04.32.42:245][400]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2024.06.08-04.32.42:246][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.08-04.32.42:246][400]LogContentBundle: [Map1(Standalone)] Deleting container.
+[2024.06.08-04.32.42:250][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.08-04.32.42:255][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.08-04.32.42:266][400]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.08-04.32.42:266][400]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.08-04.32.42:266][400]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.08-04.32.42:268][400]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.08-04.32.42:274][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.08-04.32.42:278][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.08-04.32.42:338][401]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.06.08-04.32.44:946][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.08-04.32.44:964][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.08-04.32.45:106][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.06.08-04.32.45:118][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.08-04.32.45:129][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.06.08-04.32.45:133][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/0/5H/MMDL49V5CW619OF2DXG15I
+[2024.06.08-04.32.45:133][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/MMDL49V5CW619OF2DXG15I03BFD9BB491B30959584E295F7B7256F.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/0/5H/MMDL49V5CW619OF2DXG15I.uasset'
+[2024.06.08-04.32.45:135][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/0/75/UV31QDCNE47EHGN9UNFOK2
+[2024.06.08-04.32.45:136][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/UV31QDCNE47EHGN9UNFOK239A9BD04485C9E9C6B7E24A1A6B98792.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/0/75/UV31QDCNE47EHGN9UNFOK2.uasset'
+[2024.06.08-04.32.45:137][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/0/B2/3657Q68CDG7CDSGZLWLKJM
+[2024.06.08-04.32.45:138][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/3657Q68CDG7CDSGZLWLKJM0EA41C2C4490A025EC5F40932811F3A0.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/0/B2/3657Q68CDG7CDSGZLWLKJM.uasset'
+[2024.06.08-04.32.45:139][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/CB/TXJ42HDGU3IPREFTPA3B02
+[2024.06.08-04.32.45:140][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/TXJ42HDGU3IPREFTPA3B02531E59D04EF9CF28AFCCFC9CC61737CB.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/CB/TXJ42HDGU3IPREFTPA3B02.uasset'
+[2024.06.08-04.32.45:141][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/L0/4IIJYPWTUSQPYDVU150JU3
+[2024.06.08-04.32.45:141][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/4IIJYPWTUSQPYDVU150JU3EEBACECD4D534647F714F9A5AF9D1042.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/L0/4IIJYPWTUSQPYDVU150JU3.uasset'
+[2024.06.08-04.32.45:143][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/4M/78EL7O0ZL1VJ27M946C207
+[2024.06.08-04.32.45:143][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/78EL7O0ZL1VJ27M946C2075352BD94451181F366A6DB86D3D150F8.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/4M/78EL7O0ZL1VJ27M946C207.uasset'
+[2024.06.08-04.32.45:145][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/MB/Q4NOJ3Y96251QRFQRW6R1Z
+[2024.06.08-04.32.45:145][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/Q4NOJ3Y96251QRFQRW6R1Z06D905C1449F66BD79D201B4016B6F37.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/MB/Q4NOJ3Y96251QRFQRW6R1Z.uasset'
+[2024.06.08-04.32.45:147][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/26/EK40Y3JBRQOJI2XC1QL457
+[2024.06.08-04.32.45:147][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/EK40Y3JBRQOJI2XC1QL457CFD970614E973D8489A95494D3C48897.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/26/EK40Y3JBRQOJI2XC1QL457.uasset'
+[2024.06.08-04.32.45:149][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/27/ZAIAI54OTI3V8F88O9Z6YT
+[2024.06.08-04.32.45:149][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/ZAIAI54OTI3V8F88O9Z6YT671DDBE5447D36A645143F98AF65BAD0.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/27/ZAIAI54OTI3V8F88O9Z6YT.uasset'
+[2024.06.08-04.32.45:151][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/H6/LP94GVAZSSQYMJVURMFV9K
+[2024.06.08-04.32.45:151][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/LP94GVAZSSQYMJVURMFV9K03FD76FE4AF32F6417B4D8A0BF290DBD.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/H6/LP94GVAZSSQYMJVURMFV9K.uasset'
+[2024.06.08-04.32.45:153][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/LB/9VFBJ4SPDL8U3KGRHNQQBY
+[2024.06.08-04.32.45:154][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/9VFBJ4SPDL8U3KGRHNQQBY3EC7D8E64E34769268290896CF874DF2.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/LB/9VFBJ4SPDL8U3KGRHNQQBY.uasset'
+[2024.06.08-04.32.45:155][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/V1/5DEEZNUG6XEP3QIAZIG2WQ
+[2024.06.08-04.32.45:155][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/5DEEZNUG6XEP3QIAZIG2WQ96D14BAD4EC9A9A66FE13A8104701275.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/V1/5DEEZNUG6XEP3QIAZIG2WQ.uasset'
+[2024.06.08-04.32.45:157][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/IB/MR5T98W0LW6MXH4J2BJTNJ
+[2024.06.08-04.32.45:157][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/MR5T98W0LW6MXH4J2BJTNJ98DC899C4A633B3432661F97CB6B34D3.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/IB/MR5T98W0LW6MXH4J2BJTNJ.uasset'
+[2024.06.08-04.32.45:159][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/RK/F9Q81LUD1F9WJLVTGTV9SW
+[2024.06.08-04.32.45:159][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/F9Q81LUD1F9WJLVTGTV9SWC936284D4EBA02204EAE1B8C275FE891.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/RK/F9Q81LUD1F9WJLVTGTV9SW.uasset'
+[2024.06.08-04.32.45:160][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/1J/4XZKXUGQ6MYMSP53CUHP6J
+[2024.06.08-04.32.45:161][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/4XZKXUGQ6MYMSP53CUHP6JBEAA65EA485C6B4813D669BB7268EAF5.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/1J/4XZKXUGQ6MYMSP53CUHP6J.uasset'
+[2024.06.08-04.32.45:163][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/8T/26D8I7IS4DOLBT17UL1T0S
+[2024.06.08-04.32.45:163][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/26D8I7IS4DOLBT17UL1T0S2AD9C2B24265CA22FE2F78927451E282.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/8T/26D8I7IS4DOLBT17UL1T0S.uasset'
+[2024.06.08-04.32.45:165][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/MF/Z732OOL4BNY24KDCLXCL5T
+[2024.06.08-04.32.45:165][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/Z732OOL4BNY24KDCLXCL5TC96B1588436CF0178BB93BBCB4356495.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/MF/Z732OOL4BNY24KDCLXCL5T.uasset'
+[2024.06.08-04.32.45:167][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/MV/V4ZT8UP7QQLZCTMMPF8KVB
+[2024.06.08-04.32.45:167][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/V4ZT8UP7QQLZCTMMPF8KVB02D7A0A94E0D4BD6E7DFFE810EB158D9.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/MV/V4ZT8UP7QQLZCTMMPF8KVB.uasset'
+[2024.06.08-04.32.45:169][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/YI/S8JRV3U0K9CHRSBEQC49AD
+[2024.06.08-04.32.45:169][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/S8JRV3U0K9CHRSBEQC49AD0AE202F341552D14A5674A9A5FB8049A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/YI/S8JRV3U0K9CHRSBEQC49AD.uasset'
+[2024.06.08-04.32.45:171][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/2R/SPL7E8DKWDDIJJ4YDQ8KOD
+[2024.06.08-04.32.45:171][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/SPL7E8DKWDDIJJ4YDQ8KOD7F1995E44EE8BE633D5141B19FA91024.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/2R/SPL7E8DKWDDIJJ4YDQ8KOD.uasset'
+[2024.06.08-04.32.45:172][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/DK/LEXZ128CWLSJJEK419EB0E
+[2024.06.08-04.32.45:173][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/LEXZ128CWLSJJEK419EB0E7D0D88EF4A14FCA9823255AB3F776DED.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/DK/LEXZ128CWLSJJEK419EB0E.uasset'
+[2024.06.08-04.32.45:174][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/L2/1LANKKHCZ5F2CHZZZQ1N9T
+[2024.06.08-04.32.45:175][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/1LANKKHCZ5F2CHZZZQ1N9TA5CFC3D6409C66AC52E513B7BF8E059B.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/L2/1LANKKHCZ5F2CHZZZQ1N9T.uasset'
+[2024.06.08-04.32.45:176][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/7/7D/P4L1PWELT2QW2DYZXF68QT
+[2024.06.08-04.32.45:177][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/P4L1PWELT2QW2DYZXF68QT949D7A844F38E4A253D2EBADBEC7FD2B.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/7/7D/P4L1PWELT2QW2DYZXF68QT.uasset'
+[2024.06.08-04.32.45:178][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/7/SC/2IFJBC6JB7EW083IRXJ97F
+[2024.06.08-04.32.45:179][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2IFJBC6JB7EW083IRXJ97FF3032F2642F2F52D35AC2ABD586B2C15.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/7/SC/2IFJBC6JB7EW083IRXJ97F.uasset'
+[2024.06.08-04.32.45:180][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/7/YL/5M1MBXK9EVAPIU7ZPANMXC
+[2024.06.08-04.32.45:180][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/5M1MBXK9EVAPIU7ZPANMXC049CEB9D47AA5A20C1207EB7A4427640.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/7/YL/5M1MBXK9EVAPIU7ZPANMXC.uasset'
+[2024.06.08-04.32.45:182][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/8/GZ/0948MG18EFGRYCKVM582D9
+[2024.06.08-04.32.45:183][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/0948MG18EFGRYCKVM582D99EC843174C85B490D2CA838BDED2DEAE.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/8/GZ/0948MG18EFGRYCKVM582D9.uasset'
+[2024.06.08-04.32.45:185][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/8/JQ/K4WE8GIVVPP9XVJDYXQ9FB
+[2024.06.08-04.32.45:185][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/K4WE8GIVVPP9XVJDYXQ9FBA6A36B8A4830C76B02C8C49FD88DAEA6.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/8/JQ/K4WE8GIVVPP9XVJDYXQ9FB.uasset'
+[2024.06.08-04.32.45:186][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/8/KU/TI1J82BBV6KUHIOG3YYHSE
+[2024.06.08-04.32.45:187][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/TI1J82BBV6KUHIOG3YYHSE18FBC1ED49B184726A6C30BAAE664D3A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/8/KU/TI1J82BBV6KUHIOG3YYHSE.uasset'
+[2024.06.08-04.32.45:188][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/6N/SHEV69XPWCLKIDZGVIXV4G
+[2024.06.08-04.32.45:189][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/SHEV69XPWCLKIDZGVIXV4G31DE7CA94A9ABD826B6C9286D2F2B215.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/6N/SHEV69XPWCLKIDZGVIXV4G.uasset'
+[2024.06.08-04.32.45:190][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/EW/VW1UFVVBCVMFDUBIPWDON6
+[2024.06.08-04.32.45:191][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/VW1UFVVBCVMFDUBIPWDON668416C8C4EE4861814A289A69826A0D7.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/EW/VW1UFVVBCVMFDUBIPWDON6.uasset'
+[2024.06.08-04.32.45:192][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/D3/H4Q0VJ43KO5W4JCTE31ME2
+[2024.06.08-04.32.45:193][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/H4Q0VJ43KO5W4JCTE31ME2FEB857CC48DCCCA968AC488BD4B35ACB.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/D3/H4Q0VJ43KO5W4JCTE31ME2.uasset'
+[2024.06.08-04.32.45:195][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/ET/U1EBTMUL0QFHFY2K476JZE
+[2024.06.08-04.32.45:195][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/U1EBTMUL0QFHFY2K476JZEBCAAF2DF487828E3329D0AA775A9955C.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/ET/U1EBTMUL0QFHFY2K476JZE.uasset'
+[2024.06.08-04.32.45:197][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/FU/52KCA71SAT9OJFFJJKFF5D
+[2024.06.08-04.32.45:197][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/52KCA71SAT9OJFFJJKFF5DE46BA55A404E6EC23E4CDDBF2566A336.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/FU/52KCA71SAT9OJFFJJKFF5D.uasset'
+[2024.06.08-04.32.45:199][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/TY/OIWQOWESGUORCQD9WRVT9N
+[2024.06.08-04.32.45:200][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/OIWQOWESGUORCQD9WRVT9NEEA99C3646092499CF6F9A836D4D6992.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/TY/OIWQOWESGUORCQD9WRVT9N.uasset'
+[2024.06.08-04.32.45:201][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/5U/IO2M5W2WD3IUPCQ3DAK0WT
+[2024.06.08-04.32.45:202][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/IO2M5W2WD3IUPCQ3DAK0WT4B014E3946A501A678C20DA5E8DFFD4A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/5U/IO2M5W2WD3IUPCQ3DAK0WT.uasset'
+[2024.06.08-04.32.45:203][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/I7/AU5ICTBMT0564GGEBMMBCR
+[2024.06.08-04.32.45:204][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/AU5ICTBMT0564GGEBMMBCRE804BF154FEA88C1A4EAC7A20D2927B6.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/I7/AU5ICTBMT0564GGEBMMBCR.uasset'
+[2024.06.08-04.32.45:205][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/SX/PRB7LGLRGS1X08D6HMHXG7
+[2024.06.08-04.32.45:206][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/PRB7LGLRGS1X08D6HMHXG7699AC580468025722DF2B6BA090E56A3.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/SX/PRB7LGLRGS1X08D6HMHXG7.uasset'
+[2024.06.08-04.32.45:207][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/ZJ/KLXWJ18542PI0OUGV2XVTJ
+[2024.06.08-04.32.45:208][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/KLXWJ18542PI0OUGV2XVTJ73E4BD90447E34D433C4B4899351EB32.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/ZJ/KLXWJ18542PI0OUGV2XVTJ.uasset'
+[2024.06.08-04.32.45:209][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/AR/2B45V3AZ4K0SZ6H6S2E6YQ
+[2024.06.08-04.32.45:210][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2B45V3AZ4K0SZ6H6S2E6YQ2E71AE3D449F5795DEE9DF86A5F9F305.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/AR/2B45V3AZ4K0SZ6H6S2E6YQ.uasset'
+[2024.06.08-04.32.45:211][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/SH/8I1LBO5R6TOXO8H3SR3FBO
+[2024.06.08-04.32.45:212][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/8I1LBO5R6TOXO8H3SR3FBO0F5936CA471B9FB0DE73D9BD9EEF1B67.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/SH/8I1LBO5R6TOXO8H3SR3FBO.uasset'
+[2024.06.08-04.32.45:213][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/BJ/7Z9H7LOYM7AI2OOXQFTFA3
+[2024.06.08-04.32.45:214][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/7Z9H7LOYM7AI2OOXQFTFA369F42A884F3169FF8D55119C85ED7AD9.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/BJ/7Z9H7LOYM7AI2OOXQFTFA3.uasset'
+[2024.06.08-04.32.45:216][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/EQ/805NQCUN8CZWDMRGKQK2Q2
+[2024.06.08-04.32.45:216][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/805NQCUN8CZWDMRGKQK2Q2ECEC23F542321A8EC3FB2DBB3C6EF22C.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/EQ/805NQCUN8CZWDMRGKQK2Q2.uasset'
+[2024.06.08-04.32.45:219][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/UH/FIRPK9BZMD6POOXZZXOPO2
+[2024.06.08-04.32.45:219][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/FIRPK9BZMD6POOXZZXOPO236734EB54438F259134967917066D0BF.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/UH/FIRPK9BZMD6POOXZZXOPO2.uasset'
+[2024.06.08-04.32.45:220][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/UL/X0M5VRPDQZS8NUGJ6HLOVA
+[2024.06.08-04.32.45:220][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/X0M5VRPDQZS8NUGJ6HLOVAB5D0CA5B4F518BB8B9383B9F25A4D752.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/UL/X0M5VRPDQZS8NUGJ6HLOVA.uasset'
+[2024.06.08-04.32.45:222][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/F/3T/YSUZJS14SYFPZUS5515X59
+[2024.06.08-04.32.45:223][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/YSUZJS14SYFPZUS5515X59D1E0EFD142176034F63AC58E868AD5D8.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/F/3T/YSUZJS14SYFPZUS5515X59.uasset'
+[2024.06.08-04.32.45:224][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/RU/GP6NCU0C6VMPE1H76BQQ54
+[2024.06.08-04.32.45:224][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/GP6NCU0C6VMPE1H76BQQ5407F0A8B747CCE91E735668AE6969A180.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/RU/GP6NCU0C6VMPE1H76BQQ54.uasset'
+[2024.06.08-04.32.45:227][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/OJ/UZQY28T20QWPUC2GCPYZIV
+[2024.06.08-04.32.45:227][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/UZQY28T20QWPUC2GCPYZIVEF3A88A745521C7CD67384993BF62437.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/OJ/UZQY28T20QWPUC2GCPYZIV.uasset'
+[2024.06.08-04.32.45:229][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/2C/CA4UZ5Z70D5ZY1JR4JN8BA
+[2024.06.08-04.32.45:229][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/CA4UZ5Z70D5ZY1JR4JN8BAAB8A45AF4DDB213B2FFCB19AC0A03F45.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/2C/CA4UZ5Z70D5ZY1JR4JN8BA.uasset'
+[2024.06.08-04.32.45:231][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/Y4/5D97SVRYCZ3LIYWJRM8CDP
+[2024.06.08-04.32.45:231][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/5D97SVRYCZ3LIYWJRM8CDPAAF5C9CD40FB988FB342AD8156C300F8.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/Y4/5D97SVRYCZ3LIYWJRM8CDP.uasset'
+[2024.06.08-04.32.45:234][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/BT/RY5JM7786L4YKQE9JUGDOP
+[2024.06.08-04.32.45:234][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/RY5JM7786L4YKQE9JUGDOPA27BD4314159666FB4F5B78490509450.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/BT/RY5JM7786L4YKQE9JUGDOP.uasset'
+[2024.06.08-04.32.45:236][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/J6/1QL68KBRWLTWKBANIY5TW5
+[2024.06.08-04.32.45:236][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/1QL68KBRWLTWKBANIY5TW5056841F84054EE731D77E880F7364A5D.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/J6/1QL68KBRWLTWKBANIY5TW5.uasset'
+[2024.06.08-04.32.45:239][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/ND/V3KITEQ1U55TMFD6XT39JH
+[2024.06.08-04.32.45:239][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/V3KITEQ1U55TMFD6XT39JH7DA3B7FF470EA129B17168A8FDBD982A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/ND/V3KITEQ1U55TMFD6XT39JH.uasset'
+[2024.06.08-04.32.45:241][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/0/PI/XUJRR9XC9EJBFWMMK3G2I3
+[2024.06.08-04.32.45:241][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/XUJRR9XC9EJBFWMMK3G2I308D8727B40E89C66872067A92CD8638E.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/0/PI/XUJRR9XC9EJBFWMMK3G2I3.uasset'
+[2024.06.08-04.32.45:242][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/AF/QU5O4JQRFUYKSBCDK8JWBS
+[2024.06.08-04.32.45:243][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/QU5O4JQRFUYKSBCDK8JWBS97973B6B43A9D786CE97DA9CD735EFF7.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/AF/QU5O4JQRFUYKSBCDK8JWBS.uasset'
+[2024.06.08-04.32.45:245][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/4R/QAP6GEQBU54CS8253KT8RD
+[2024.06.08-04.32.45:245][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/QAP6GEQBU54CS8253KT8RD48C6BA694B878FDC222BC2A1EF4207BC.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/4R/QAP6GEQBU54CS8253KT8RD.uasset'
+[2024.06.08-04.32.45:247][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/JY/A4GLJ998501AUV7N9PQ4DE
+[2024.06.08-04.32.45:247][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/A4GLJ998501AUV7N9PQ4DED27520C543480FA565BB58956F7D57AB.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/JY/A4GLJ998501AUV7N9PQ4DE.uasset'
+[2024.06.08-04.32.45:249][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/8/71/2Z9E0USJ2IRSHMR7ZPF0IG
+[2024.06.08-04.32.45:249][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2Z9E0USJ2IRSHMR7ZPF0IG6F5C570944B64D96298A30B2C56C7FAE.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/8/71/2Z9E0USJ2IRSHMR7ZPF0IG.uasset'
+[2024.06.08-04.32.45:252][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/MK/C9NSY0MWPIIHE16T2B91HB
+[2024.06.08-04.32.45:252][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/C9NSY0MWPIIHE16T2B91HB74DF47404D9428D4B83D5EB79A5272D1.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/MK/C9NSY0MWPIIHE16T2B91HB.uasset'
+[2024.06.08-04.32.45:255][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/ZZ/QPCHUSCY6MM73IAFIK3I6I
+[2024.06.08-04.32.45:255][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/QPCHUSCY6MM73IAFIK3I6IA5CCF8774A565EC1530A10B96E935A66.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/ZZ/QPCHUSCY6MM73IAFIK3I6I.uasset'
+[2024.06.08-04.32.45:257][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/WP/KF3GXTHWJD7EX1N07GYIIQ
+[2024.06.08-04.32.45:257][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/KF3GXTHWJD7EX1N07GYIIQ6E8E77984129763546A31492ABF24435.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/WP/KF3GXTHWJD7EX1N07GYIIQ.uasset'
+[2024.06.08-04.32.45:258][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/WG/RWEFX57OET65II8XP0S55Z
+[2024.06.08-04.32.45:258][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/RWEFX57OET65II8XP0S55ZE2803EA14444F29B727C168578FC4C71.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/WG/RWEFX57OET65II8XP0S55Z.uasset'
+[2024.06.08-04.32.45:261][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/IG/DVHSYCWSFAH0P9NSER10D8
+[2024.06.08-04.32.45:261][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/DVHSYCWSFAH0P9NSER10D8C5934E324FD420DD8864C6A9DECB8FF4.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/IG/DVHSYCWSFAH0P9NSER10D8.uasset'
+[2024.06.08-04.32.45:264][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/XA/5XHZ64CTURU76NZZ8BUOIB
+[2024.06.08-04.32.45:264][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/5XHZ64CTURU76NZZ8BUOIBD61735F14655E2A7726C93A14D8664BD.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/XA/5XHZ64CTURU76NZZ8BUOIB.uasset'
+[2024.06.08-04.32.45:266][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/EF/7E55VEKVV65QAL2FTG4I1C
+[2024.06.08-04.32.45:266][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/7E55VEKVV65QAL2FTG4I1CF415897B451D2C466CCC659700A1FB9F.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/EF/7E55VEKVV65QAL2FTG4I1C.uasset'
+[2024.06.08-04.32.45:268][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/0/IM/2737ZO7QDBI41MBOZXYOLP
+[2024.06.08-04.32.45:268][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2737ZO7QDBI41MBOZXYOLP88021EC04DC5022387BA82AC8750A2DE.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/0/IM/2737ZO7QDBI41MBOZXYOLP.uasset'
+[2024.06.08-04.32.45:270][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/HL/2SYD9AS6DRKMDN9IHYZE2Z
+[2024.06.08-04.32.45:270][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2SYD9AS6DRKMDN9IHYZE2Z4CF54BD144B9E0EC0468D5A79C7577E6.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/HL/2SYD9AS6DRKMDN9IHYZE2Z.uasset'
+[2024.06.08-04.32.45:272][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/7L/0UJJXXLYJON6IJH8A1UC2V
+[2024.06.08-04.32.45:272][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/0UJJXXLYJON6IJH8A1UC2V40C1002944A2E21A614462BD4DF3CF14.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/7L/0UJJXXLYJON6IJH8A1UC2V.uasset'
+[2024.06.08-04.32.45:274][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/B5/WCKCERM0ZX66EJPYDEKWT0
+[2024.06.08-04.32.45:274][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/WCKCERM0ZX66EJPYDEKWT088F22FE1430D9B4790CFD6BE3FB8973E.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/B5/WCKCERM0ZX66EJPYDEKWT0.uasset'
+[2024.06.08-04.32.45:276][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/2X/R02ZSQ315SOLQJ4CINGO77
+[2024.06.08-04.32.45:276][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/R02ZSQ315SOLQJ4CINGO77D63B5C9A4F44B4125CDA06B990853707.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/2X/R02ZSQ315SOLQJ4CINGO77.uasset'
+[2024.06.08-04.32.45:278][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/B3/BEPRNFNQTA0WLFW3N55D4J
+[2024.06.08-04.32.45:278][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/BEPRNFNQTA0WLFW3N55D4J257D47F64A33AFC718FE9DAED0B94E72.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/B3/BEPRNFNQTA0WLFW3N55D4J.uasset'
+[2024.06.08-04.32.45:281][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/NP/R8BOR6UU1ZLDNR08B4KK9I
+[2024.06.08-04.32.45:281][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/R8BOR6UU1ZLDNR08B4KK9I75757228416C7994F037CD9529AD09E3.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/NP/R8BOR6UU1ZLDNR08B4KK9I.uasset'
+[2024.06.08-04.32.45:283][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/TF/7FN6IAUN084ICDX6NHTTVE
+[2024.06.08-04.32.45:283][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/7FN6IAUN084ICDX6NHTTVE6EFE97C6464237E24341FE83E5C8BE56.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/TF/7FN6IAUN084ICDX6NHTTVE.uasset'
+[2024.06.08-04.32.45:285][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/2/LW/O532YFHR3BS3P6XKE801IL
+[2024.06.08-04.32.45:285][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/O532YFHR3BS3P6XKE801IL1BACDA0340F9E33C0AE353B829B63B6B.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/2/LW/O532YFHR3BS3P6XKE801IL.uasset'
+[2024.06.08-04.32.45:290][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/H1/35OCRG5NTDSFJQO8103X6Z
+[2024.06.08-04.32.45:290][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/35OCRG5NTDSFJQO8103X6Z8734F62644F9EB1E5640808F1B3056EF.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/H1/35OCRG5NTDSFJQO8103X6Z.uasset'
+[2024.06.08-04.32.45:292][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/D/HM/0XP8CQ5BRSWRY1YLNWTPWU
+[2024.06.08-04.32.45:292][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/0XP8CQ5BRSWRY1YLNWTPWU331C0CEF4270F9ECAD0F10AA26EB81AF.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/D/HM/0XP8CQ5BRSWRY1YLNWTPWU.uasset'
+[2024.06.08-04.32.45:294][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/D/W5/I4QK0T7XC58VL032TLLE9O
+[2024.06.08-04.32.45:294][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/I4QK0T7XC58VL032TLLE9O7716B99446782EA39DE7BEB200FD936A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/D/W5/I4QK0T7XC58VL032TLLE9O.uasset'
+[2024.06.08-04.32.45:296][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/JM/R0KCYP8AHKCZ4YEZZ5NIEG
+[2024.06.08-04.32.45:296][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/R0KCYP8AHKCZ4YEZZ5NIEG7E2E6B504B12A88ACB3B2F96C1365949.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/JM/R0KCYP8AHKCZ4YEZZ5NIEG.uasset'
+[2024.06.08-04.32.45:299][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/J1/3GXB4IA191TZA6YG2LWNTL
+[2024.06.08-04.32.45:299][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/3GXB4IA191TZA6YG2LWNTL677164824C79CC5B4AC9FD86D689AAA4.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/J1/3GXB4IA191TZA6YG2LWNTL.uasset'
+[2024.06.08-04.32.45:301][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/3K/4QM7ZAZRVW1Z3FN2ACPB3F
+[2024.06.08-04.32.45:301][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/4QM7ZAZRVW1Z3FN2ACPB3FD94A71E9404E55CE5E37C28032BCCF1A.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/3K/4QM7ZAZRVW1Z3FN2ACPB3F.uasset'
+[2024.06.08-04.32.45:303][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/I7/8JM7EVF8PW3GFA5Z6POU8A
+[2024.06.08-04.32.45:303][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/8JM7EVF8PW3GFA5Z6POU8A2329A5DD4C4651C5D7FA8A9E84E0CC45.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/I7/8JM7EVF8PW3GFA5Z6POU8A.uasset'
+[2024.06.08-04.32.45:305][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/7/AK/R9AT8892DLBT376HTF2KSG
+[2024.06.08-04.32.45:306][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/R9AT8892DLBT376HTF2KSGD1C2B1074B0AA5B8E8E81A86565A4F80.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/7/AK/R9AT8892DLBT376HTF2KSG.uasset'
+[2024.06.08-04.32.45:308][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/R1/X3422I7JEDPGV0RTQLH0FK
+[2024.06.08-04.32.45:308][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/X3422I7JEDPGV0RTQLH0FK238073FE41E250EC7C2702BD32FDD5B5.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/R1/X3422I7JEDPGV0RTQLH0FK.uasset'
+[2024.06.08-04.32.45:310][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/4E/45217TGZFIXME724HZNZF1
+[2024.06.08-04.32.45:310][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/45217TGZFIXME724HZNZF13CA8CAD44B9E9B989217E98D17DC8AA2.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/4E/45217TGZFIXME724HZNZF1.uasset'
+[2024.06.08-04.32.45:312][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/F/39/9UJN00LLUBSNWBHVQ14PD0
+[2024.06.08-04.32.45:312][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/9UJN00LLUBSNWBHVQ14PD070B883E44757360DE40775A80C86B3AA.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/F/39/9UJN00LLUBSNWBHVQ14PD0.uasset'
+[2024.06.08-04.32.45:315][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/3/ZA/THTDPSQ5A9JWC7SJMQ8A5Q
+[2024.06.08-04.32.45:315][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/THTDPSQ5A9JWC7SJMQ8A5QD039FB1948CE1E65D6E1BF879A120E96.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/3/ZA/THTDPSQ5A9JWC7SJMQ8A5Q.uasset'
+[2024.06.08-04.32.45:317][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/1B/ULJKO9HJ0TK2WUYJR3EQ9Z
+[2024.06.08-04.32.45:317][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/ULJKO9HJ0TK2WUYJR3EQ9ZAEC4340E4369AA8B25F460B0832737FD.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/1B/ULJKO9HJ0TK2WUYJR3EQ9Z.uasset'
+[2024.06.08-04.32.45:319][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/H3/2WUM3DRDD1OKQU4VAA3YR4
+[2024.06.08-04.32.45:319][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/2WUM3DRDD1OKQU4VAA3YR4E1964E3840236C058B2EFDA385643687.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/H3/2WUM3DRDD1OKQU4VAA3YR4.uasset'
+[2024.06.08-04.32.45:321][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/KO/JGTCFU1ONJDZK4GHL1YV4Z
+[2024.06.08-04.32.45:321][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/JGTCFU1ONJDZK4GHL1YV4ZADFFE48F4887FF7C8F227B838EDD9821.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/KO/JGTCFU1ONJDZK4GHL1YV4Z.uasset'
+[2024.06.08-04.32.45:324][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/8/EB/GHZBRVRHALJ55X64CLEYGD
+[2024.06.08-04.32.45:324][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/GHZBRVRHALJ55X64CLEYGDD348EBAB42B2644509C04D9C94678DB4.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/8/EB/GHZBRVRHALJ55X64CLEYGD.uasset'
+[2024.06.08-04.32.45:326][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/9/4J/950G6LX2S6K7Z4SMRSVSQ9
+[2024.06.08-04.32.45:326][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/950G6LX2S6K7Z4SMRSVSQ9B952ECC942D72897AB5C948007DCCDFE.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/9/4J/950G6LX2S6K7Z4SMRSVSQ9.uasset'
+[2024.06.08-04.32.45:328][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/BX/SMKK9OPZQUB6NO9MHO0VG6
+[2024.06.08-04.32.45:328][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/SMKK9OPZQUB6NO9MHO0VG64348724E43478EF4F1BEACB564E90095.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/BX/SMKK9OPZQUB6NO9MHO0VG6.uasset'
+[2024.06.08-04.32.45:331][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/E/EA/KNGXIY6FPU53NCOYHT7U8E
+[2024.06.08-04.32.45:331][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/KNGXIY6FPU53NCOYHT7U8EB89C0E734F5CB2602B7E8BB78B794D65.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/E/EA/KNGXIY6FPU53NCOYHT7U8E.uasset'
+[2024.06.08-04.32.45:332][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/KH/FOZCUXEDTSPXLF5EM8G0I8
+[2024.06.08-04.32.45:332][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/FOZCUXEDTSPXLF5EM8G0I8514FB3454F808F8EBE93CE8577B6BDDA.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/KH/FOZCUXEDTSPXLF5EM8G0I8.uasset'
+[2024.06.08-04.32.45:334][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/5/4R/SLBT8O7NN0BB1TS42Y8X5P
+[2024.06.08-04.32.45:334][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/SLBT8O7NN0BB1TS42Y8X5P8A64323F45542EE67AA8ACB62A94EC1E.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/5/4R/SLBT8O7NN0BB1TS42Y8X5P.uasset'
+[2024.06.08-04.32.45:336][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/SV/RFAJFAUMGB0PC8FYE1BOZ1
+[2024.06.08-04.32.45:336][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/RFAJFAUMGB0PC8FYE1BOZ1D9AE97294D19664435CFB2B50900AFF8.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/SV/RFAJFAUMGB0PC8FYE1BOZ1.uasset'
+[2024.06.08-04.32.45:338][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/DE/ROOH0WTCKO8YN79KF1BXDC
+[2024.06.08-04.32.45:338][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/ROOH0WTCKO8YN79KF1BXDCF1B9C05345820A4323CA17B6C09F29D1.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/DE/ROOH0WTCKO8YN79KF1BXDC.uasset'
+[2024.06.08-04.32.45:340][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/6I/YWFK8XFLG1JJP71Q3LIR7G
+[2024.06.08-04.32.45:340][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/YWFK8XFLG1JJP71Q3LIR7G69F53787439D0C3D31EBD58AB17F4359.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/6I/YWFK8XFLG1JJP71Q3LIR7G.uasset'
+[2024.06.08-04.32.45:342][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/J2/83RNABWUTX9VL30NI0FZB9
+[2024.06.08-04.32.45:342][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/83RNABWUTX9VL30NI0FZB99DE26B49441C93B2C0278A9832485363.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/J2/83RNABWUTX9VL30NI0FZB9.uasset'
+[2024.06.08-04.32.45:344][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/A/8W/P95MIIPN1SQSLNGZCSBGPE
+[2024.06.08-04.32.45:344][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/P95MIIPN1SQSLNGZCSBGPEC7D0E65E45C9CCCE17A96496A3ED4FA1.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/A/8W/P95MIIPN1SQSLNGZCSBGPE.uasset'
+[2024.06.08-04.32.45:345][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/6/IR/9WVYRFAMOQ8Q3O5LINLXGH
+[2024.06.08-04.32.45:345][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/9WVYRFAMOQ8Q3O5LINLXGH696C481349E6815386ADB6988C15B42B.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/6/IR/9WVYRFAMOQ8Q3O5LINLXGH.uasset'
+[2024.06.08-04.32.45:347][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/7/DE/OQ9P9QWUFY8VLK3RL86W0R
+[2024.06.08-04.32.45:347][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/OQ9P9QWUFY8VLK3RL86W0R03DD2BDA4FB8929CF9B09CBDB0D7B421.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/7/DE/OQ9P9QWUFY8VLK3RL86W0R.uasset'
+[2024.06.08-04.32.45:350][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/C/WV/H52K7HQ898AMFQ6FSWL5A0
+[2024.06.08-04.32.45:350][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/H52K7HQ898AMFQ6FSWL5A03D53DD4A4826B8B244AE1DA71ABD6504.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/C/WV/H52K7HQ898AMFQ6FSWL5A0.uasset'
+[2024.06.08-04.32.45:352][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/B/9G/CYU52H8X80TZ00S8U8E1Z8
+[2024.06.08-04.32.45:352][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/CYU52H8X80TZ00S8U8E1Z865286D01425B6FA2DC9160BEE47D3181.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/B/9G/CYU52H8X80TZ00S8U8E1Z8.uasset'
+[2024.06.08-04.32.45:354][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/4/CF/1GIL0ZDUYEOJ5VJFBWF0PE
+[2024.06.08-04.32.45:354][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/1GIL0ZDUYEOJ5VJFBWF0PE7E011EA8430C62A9BC11C48F80EB43D5.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/4/CF/1GIL0ZDUYEOJ5VJFBWF0PE.uasset'
+[2024.06.08-04.32.45:356][547]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Map1/1/GA/Y4G70REY0RBWV9AGBIYQVQ
+[2024.06.08-04.32.45:356][547]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/Y4G70REY0RBWV9AGBIYQVQ381FDD7D477E974AFD3C819AAE702079.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/__ExternalActors__/ThirdPerson/Maps/Map1/1/GA/Y4G70REY0RBWV9AGBIYQVQ.uasset'
+[2024.06.08-04.32.45:366][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 401 ms (total: 4.75 sec)
+[2024.06.08-04.32.45:388][547]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1763195368
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1809530373
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1703503364
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1237179049
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1758591836
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1798126371
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1856540845
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1758589834
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1120788039
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1856541846
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1649011068
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1809531374
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1815613844
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1758593838
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1649010066
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DEEF901_1826265991
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1237182051
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1237180050
+[2024.06.08-04.32.45:388][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1734603832
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1845976380
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1594658056
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1086074035
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1097639036
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1726746366
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1865562847
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1758592837
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1758590835
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1638758062
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1657904074
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1237182052
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1612505057
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Game/FollowMeLibrary/Mechanic/Doors/Door_BP.Door_BP_C /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.Door_BP_C_UAID_D843AE06D09DEEF901_1826269992
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1775615369
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_2136433858
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D03F801_1815612843
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1120786038
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1097640037
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1657903072
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1809532376
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1626740059
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1304606053
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1845977381
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09DFCF701_1845976379
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1638759064
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D04F801_1620745058
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1118678695
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379845696
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379851697
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379852698
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379853699
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379854700
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379856701
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379857702
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379857703
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379858704
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379859705
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379860706
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379860707
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379861708
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379862709
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379863710
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379864711
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379864712
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379865713
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379866714
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379867715
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379867716
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379869717
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379870718
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379870719
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379871720
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379872721
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379873722
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379873723
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379874724
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379875725
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379876726
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379877727
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379877728
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379879729
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379879730
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379880731
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379881732
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379882733
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379882734
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379883735
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379884736
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379885737
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379886738
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379887739
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379887740
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379888741
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1379889742
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1402756743
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1402758744
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1411069745
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1438566746
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1450122747
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1458651748
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1464284749
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1468047750
+[2024.06.08-04.32.45:389][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1477650751
+[2024.06.08-04.32.45:390][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1485727752
+[2024.06.08-04.32.45:390][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1492417753
+[2024.06.08-04.32.45:390][547]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Map1.Map1:PersistentLevel.StaticMeshActor_UAID_D843AE06D09D5DFD01_1503439754
+[2024.06.08-04.32.51:589][897]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Rocker_Jeans.Rocker_Jeans
+[2024.06.08-04.32.51:614][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.32.51:615][897]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.08-04.32.51:886][897]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.08-04.32.51:886][897]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.32.51:886][897]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.32.51:886][897]MaterialEditorStats: Shader Count: 0
+[2024.06.08-04.32.51:894][897]LogViewport: Scene viewport resized to 365x417, mode Windowed.
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: ================================================
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: Total job queries 1,939, among them cache hits 1,599 (82.47%)
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: Tracking 340 distinct input hashes that result in 156 distinct outputs (45.88%)
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: RAM used: 9.29 MiB of 819.20 MiB budget. Usage: 1.13%
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.08-04.32.51:943][898]LogShaderCompilers: Display: ================================================
+[2024.06.08-04.32.52:001][899]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.06.08-04.32.52:001][899]MaterialEditorStats: Texture samplers: 4/16
+[2024.06.08-04.32.52:001][899]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.32.52:001][899]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.32.52:001][899]MaterialEditorStats: Shader Count: 3
+[2024.06.08-04.32.54:803][ 48]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.08-04.32.54:804][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.32.54:804][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.32.54:804][ 48]MaterialEditorStats: Shader Count: 0
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: Texture samplers: 4/16
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.32.54:830][ 49]MaterialEditorStats: Shader Count: 5
+[2024.06.08-04.32.56:431][128]LogMaterialEditor: Saving and Compiling material Rocker_Jeans
+[2024.06.08-04.32.56:663][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.06.08-04.32.56:876][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.06.08-04.32.56:890][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.08-04.32.57:010][128]LogSavePackage: Moving output files for package: /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Rocker_Jeans
+[2024.06.08-04.32.57:010][128]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/Rocker_Jeans383610B1477551EA5719D893E67BF01B.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/FollowMeLibrary/Characters/Camilla/CamillaTexture/Rocker_Jeans.uasset'
+[2024.06.08-04.32.57:021][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 4.89 sec)
+[2024.06.08-04.32.57:023][128]AssetCheck: New page: Asset Save: Rocker_Jeans
+[2024.06.08-04.32.57:023][128]LogContentValidation: Display: Validating /Script/Engine.Material /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Rocker_Jeans.Rocker_Jeans
+[2024.06.08-04.32.57:024][128]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: MaxSampler: 251 instructions
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: Base pass vertex shader: 275 instructions
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: Texture samplers: 5/16
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.32.57:025][128]MaterialEditorStats: Shader Count: 34
+[2024.06.08-04.32.58:967][239]LogSlate: Window 'Rocker_Jeans' being destroyed
+[2024.06.08-04.32.59:010][239]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.06.08-04.32.59:010][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.08-04.33.10:571][916]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Boots.Boots
+[2024.06.08-04.33.10:575][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.08-04.33.10:575][916]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.08-04.33.10:793][916]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.08-04.33.10:793][916]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.33.10:793][916]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.33.10:793][916]MaterialEditorStats: Shader Count: 0
+[2024.06.08-04.33.10:800][916]LogViewport: Scene viewport resized to 365x417, mode Windowed.
+[2024.06.08-04.33.10:869][918]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.06.08-04.33.10:869][918]MaterialEditorStats: Texture samplers: 4/16
+[2024.06.08-04.33.10:869][918]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.33.10:869][918]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.33.10:870][918]MaterialEditorStats: Shader Count: 3
+[2024.06.08-04.33.13:294][ 53]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.08-04.33.13:294][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.33.13:294][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.33.13:294][ 53]MaterialEditorStats: Shader Count: 0
+[2024.06.08-04.33.13:323][ 54]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.06.08-04.33.13:324][ 54]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.06.08-04.33.13:324][ 54]MaterialEditorStats: Texture samplers: 4/16
+[2024.06.08-04.33.13:324][ 54]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.33.13:324][ 54]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.33.13:324][ 54]MaterialEditorStats: Shader Count: 5
+[2024.06.08-04.33.14:287][101]LogMaterialEditor: Saving and Compiling material Boots
+[2024.06.08-04.33.14:389][101]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.06.08-04.33.14:616][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.06.08-04.33.14:630][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.08-04.33.14:746][101]LogSavePackage: Moving output files for package: /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Boots
+[2024.06.08-04.33.14:747][101]LogSavePackage: Moving '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Saved/Boots5025709248DB69813B7F5CA8735200BB.tmp' to '../../../../../../Users/User/MyPSM/FollowMe-PSM/FollowMe/Content/FollowMeLibrary/Characters/Camilla/CamillaTexture/Boots.uasset'
+[2024.06.08-04.33.14:756][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 5.01 sec)
+[2024.06.08-04.33.14:758][101]AssetCheck: New page: Asset Save: Boots
+[2024.06.08-04.33.14:758][101]LogContentValidation: Display: Validating /Script/Engine.Material /Game/FollowMeLibrary/Characters/Camilla/CamillaTexture/Boots.Boots
+[2024.06.08-04.33.14:759][101]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.06.08-04.33.14:759][101]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.06.08-04.33.14:759][101]MaterialEditorStats: MaxSampler: 251 instructions
+[2024.06.08-04.33.14:760][101]MaterialEditorStats: Base pass vertex shader: 275 instructions
+[2024.06.08-04.33.14:760][101]MaterialEditorStats: Texture samplers: 5/16
+[2024.06.08-04.33.14:760][101]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.06.08-04.33.14:760][101]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.08-04.33.14:760][101]MaterialEditorStats: Shader Count: 34
+[2024.06.08-04.33.16:540][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
